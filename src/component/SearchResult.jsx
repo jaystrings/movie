@@ -4,7 +4,7 @@ import { Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import { API_KEY, BASE_URL } from "../api/config";
-import Spinner from "../Utilities/Spinner";
+import Spinner from "../utils/spinner"; 
 
 export default function SearchResult({ searchQuery, setResultBox }) {
   const [data, setData] = useState([]);

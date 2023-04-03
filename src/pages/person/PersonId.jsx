@@ -7,7 +7,6 @@ import { BASE_URL, API_KEY } from "../../api/config";
 import{
     Imagebox,
     Mediacard,
-    MediaCard,
     PagelayoutId,
     ScrollButtons,
 } from '../../component'

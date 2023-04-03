@@ -46,7 +46,7 @@ export default function Genres() {
     }
     fetchData();
   }, [id,page]);
-  const filterGenreTitile = genres.filter((genre)=>genre.id == id)
+  const filterGenreTitile = genres.filter((genre)=>genre.id === id)
   useEffect(()=>{
     window.scrollTo({top:'0'})
   },[id])

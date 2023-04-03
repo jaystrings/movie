@@ -8,7 +8,6 @@ export default function useFetchData(url) {
   const [newData, setNewData] = useState([]);
   const [genres, setGenres] = useState([]);
   const [error, setError] = useState(null);
-  // const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(1) //for scrolling
 
   useEffect(() => {
